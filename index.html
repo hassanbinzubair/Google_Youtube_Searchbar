@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image" />
+    <title>
+      Ultra Searcher Search From Google or Youtube | Hassan bin Zubair
+    </title>
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png" class="logo" id="nav-logo" alt="Logo" />
+      <div class="title">Ultra Searcher</div>
+      <div class="menubar">
+        <button class="menu-btn" id="contact-btn">Contact</button>
+        <button class="menu-btn" id="github-btn">Github</button>
+        <button class="menu-btn" id="portfolio-btn">Portfolio</button>
+      </div>
+    </nav>
+    <main>
+      <div class="info">
+        <img src="logo.png" class="logo-main" alt="Logo" />
+        <div class="info-text">
+          An Open Source Search Engine To Search From Google or Youtube Easily.
+        </div>
+      </div>
+      <div class="search-google">
+        <form id="glform" action="https://www.google.com/search" method="get">
+          <div class="platformicon">
+            <img class="platform-logo" src="google_logo.svg" alt="Google" />
+          </div>
+          <input
+            class="search-input"
+            type="text"
+            id="searchgoogle"
+            name="q"
+            placeholder="&nbsp;&nbsp;&nbsp; Search From Google"
+          />
+          <button class="submit-btn" type="submit" class="submit">
+            <img class="search-btn" src="logo.png" alt="Search" />
+          </button>
+        </form>
+      </div>
+      <div class="search-youtube">
+        <form id="ytform" action="https://www.youtube.com/results" method="get">
+          <div class="platformicon">
+            <img class="platform-logo" src="youtube_logo.png" alt="Youtube" />
+          </div>
+          <input
+            class="search-input"
+            type="text"
+            id="searchyoutube"
+            name="search_query"
+            placeholder="&nbsp;&nbsp;&nbsp; Search From Youtube"
+          />
+          <button class="submit-btn" type="submit" class="submit">
+            <img class="search-btn" src="logo.png" alt="Search" />
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        Copyrights &copy; All Right Reserved - 2026 | Ultra Searcher by
+        <a href="mailto:hassanbinzubair5@gmail.com">Hassan Bin Zubair</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
